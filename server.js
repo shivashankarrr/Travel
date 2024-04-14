@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 const MONGO_URL = "mongodb://localhost:27017";
-const PORT = 3000
+const PORT = 4000
 
 mongoose.connect(MONGO_URL, {
     dbName: "Travel",
